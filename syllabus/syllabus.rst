@@ -1,17 +1,22 @@
 :Author: Justin Perona
 
-Credit for the layout (and some of the content) is given to Jason Lowe-Power of UC Davis.
+Credit for the course layout and some of the content is given Jason Lowe-Power of UC Davis.
+Credit for a significantly portion of the content is given jointly to Sean Davis and Matthew Farrens of UC Davis.
+
+Content is licensed under CC BY 4.0.
+See the LICENSE file for more information.
 
 .. _Canvas: https://canvas.ucdavis.edu
 .. _Github: https://github.com/jlperona-teaching/ecs154a-ssii2018
-.. _Gradescope: https://gradescope.com
-.. _Piazza: https://piazza.com
+.. _Gradescope: https://gradescope.com/courses/20711
+.. _Piazza: https://piazza.com/class/jjmd3q6esw46c
+.. _schedule: https://github.com/jlperona-teaching/ecs154a-ssii18/blob/master/syllabus/schedule.csv
 
 ================================
 ECS 154A - Computer Architecture
 ================================
 
-People and Class
+Class and People
 ----------------
 
 Lectures and Discussions
@@ -28,9 +33,11 @@ Instructor
 
 **Justin Perona** (jlperona at ucdavis dot edu)
 
+Emails to me about the course should have the tag **[ECS 154A]** (including the brackets) in the title.
+
 *Afternoon Office Hours*: MT 16:00 - 17:30
 
-*Afternoon Office Hours Location*: TBA
+*Afternoon Office Hours Location*: TBA Kemper
 
 *Evening Office Hours*: W 19:00 - 20:00
 
@@ -42,11 +49,11 @@ Email me to schedule an appointment.
 Teaching Assistant
 ~~~~~~~~~~~~~~~~~~
 
-**TBA** (TBA at ucdavis dot edu)
+**Yuan Pan** (yapan at ucdavis dot edu)
 
 *Office Hours*: TBA
 
-*Office Hours Location*: TBA
+*Office Hours Location*: TBA Kemper
 
 Websites
 --------
@@ -55,7 +62,7 @@ Github
 ~~~~~~
 
 We will use Github_ as the main website for the course.
-It will also contain all of the documents for the course, such as labs and homework.
+It will also contain all of the documents for the course, such as labs and homework (and the syllabus you're currently reading).
 
 The versions of documents found on Github are the canonical versions of all documents.
 Other downloaded versions of documents may become out of date.
@@ -81,7 +88,7 @@ Odds are, you've used Piazza for another class, but it will serve as the discuss
 Both the TA and I will be on Piazza to answer questions.
 
 It's best to ask your questions on Piazza.
-That way, all of your classmates can see the answer instead of emailing the TAs or me.
+That way, all of your classmates can see the answer instead of emailing the TA or me.
 Additionally, you may get a faster response from one of your classmates.
 
 Through asking and answering questions on Piazza, you improve your understanding of the material, and improve other students' understanding as well.
@@ -94,11 +101,22 @@ We will change questions asked privately to public, if we deem it appropriate.
 If your question involves code you've written, or is about a personal issue, we will leave those private.
 The same applies to emailed questions - we will redirect you to Piazza if appropriate.
 
+Other Important Information
+---------------------------
+
 Regrade Requests
 ~~~~~~~~~~~~~~~~
 
+Regrade requests must be made within one week of the return of the assignment or test.
+
 Accommodations
 ~~~~~~~~~~~~~~
+
+The exam schedule is available on the schedule_.
+Per `official UC Davis policy`_, if you have an accommodation request from the `Student Disability Center`_, or have any conflicts with exam times for religious observances, you must notify me by the **fifth class, Monday, 2018-08-13**.
+
+.. _official UC Davis policy: http://academicsenate.ucdavis.edu/bylaws_and_regulations/regulations.cfm?#538-
+.. _Student Disability Center: https://sdc.ucdavis.edu/
 
 Academic Misconduct
 ~~~~~~~~~~~~~~~~~~~
@@ -122,7 +140,7 @@ Any violations of this policy will result in reporting the violating student(s) 
 Prerequisites
 -------------
 
-(ECS 50) or (EEC 70).
+(ECS 50) or (EEC 70) or the equivalent.
 
 Assignments and Tests
 ---------------------
@@ -135,6 +153,8 @@ Labs (5x)    30%
 
 Quizzes (3x) 20%
 
+------------ ---
+
 Midterm      20%
 
 Final        30%
@@ -143,14 +163,61 @@ Final        30%
 Labs
 ~~~~
 
+You will complete five lab assignments throughout this course.
+The labs can found via the links below.
+All together, the labs are worth 40% of your final grade.
+
+Labs are due at 09:00 on Mondays.
+
+* `Lab 1`_. Due 2018-08-06.
+* `Lab 2`_. Due 2018-08-13.
+* `Lab 3`_. Due 2018-08-20.
+* `Lab 4`_. Due 2018-08-27.
+* `Lab 5`_. Due 2018-09-03.
+
+For all labs, you may (and are suggested to) work with a partner.
+You do not have to keep the same partner throughout the whole quarter; you can change who you work with.
+I suggest using Piazza to find partners.
+
+.. _Lab 1: https://github.com/jlperona-teaching/ecs154a-ssii2018/blob/master/lab1/lab1.rst
+.. _Lab 2: https://github.com/jlperona-teaching/ecs154a-ssii2018/blob/master/lab2/lab2.rst
+.. _Lab 3: https://github.com/jlperona-teaching/ecs154a-ssii2018/blob/master/lab3/lab3.rst
+.. _Lab 4: https://github.com/jlperona-teaching/ecs154a-ssii2018/blob/master/lab4/lab4.rst
+.. _Lab 5: https://github.com/jlperona-teaching/ecs154a-ssii2018/blob/master/lab5/lab5.rst
+
+Late Assignments
+~~~~~~~~~~~~~~~~
+
+If you turn in a lab late, you will lose points.
+The percentage of points you will lose is given by the equation below.
+This will give you partial points up to 48 hours after the due date.
+This system penalizes you less the earlier you turn it in, versus a straight-linear drop-off.
+
+    fraction of points = 1 - (hours late)^2/48^2
+
 Quizzes
 ~~~~~~~
+
+There will be quizzes on Thursday for some weeks.
+Check the schedule_ for the dates.
+
+The quizzes will be in a similar style to the midterm and final, except for their length (25 minutes versus 100 minutes).
 
 Midterm: Thursday, 2018-08-24 14:10
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The midterm covers content through 2018-08-21.
+It will be 100 minutes long.
+
+You are allowed to bring one US letter (8.5" x 11") sheet of *handwritten* notes.
+
 Final: Thursday, 2018-09-13 14:10
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The final is cumulative.
+It will be 100 minutes long.
+
+You are allowed to bring one US letter (8.5" x 11") sheet of *handwritten* notes.
 
 Reading List and Schedule
 -------------------------
@@ -158,10 +225,18 @@ Reading List and Schedule
 Textbook
 ~~~~~~~~
 
+We will be using the following textbooks:
+
+* *Computer Organization and Architecture* by William Stallings.
+* *Digital McLogic Design* by Bryan Mealy and James Mealy.
+
+For the Stallings book, either the 9th edition or 10th edition is fine.
+I will post chapters to read for both editions.
+You can find a copy of *Digital McLogic Design* on Canvas_.
+
+See the schedule_ for reading dates.
+
 Schedule
 ~~~~~~~~
 
-.. csv-table:: Schedule
-    :file: schedule.csv
-    :header-rows: 1
-    :widths: 10, 10, 10, 10, 10, 10, 10, 10
+See the official schedule_ on Github.
