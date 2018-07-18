@@ -1,6 +1,6 @@
 Day,Date,Hour,Class Type,Topics Covered,Reading (10e),Reading (9e),Milestone
-Monday,2018-08-06,14,Lecture,"Introduction, history, instruction sets",,,
-Monday,2018-08-06,15,Lecture,"Analog vs. digital, Boolean algebra",,,
+Monday,2018-08-06,14,Lecture,"Introduction, history,",1.1-1.3,"1.1-1.2, 2.1",
+Monday,2018-08-06,15,Lecture,"Analog vs. digital, Boolean algebra, equivalence laws",11.1,11.1,
 Tuesday,2018-08-07,14,Lecture,"Truth tables, timing",,,
 Tuesday,2018-08-07,15,Lecture,Gates,,,
 Wednesday,2018-08-08,14,Lecture,"Karnaugh maps, minimization",,,
