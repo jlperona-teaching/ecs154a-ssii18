@@ -1,7 +1,7 @@
 :Author: Justin Perona
 
-Credit for the course layout and some of the content is given Jason Lowe-Power of UC Davis.
-Credit for a significantly portion of the content is given jointly to Sean Davis and Matthew Farrens of UC Davis.
+Credit for the course layout and some of the content is given to Jason Lowe-Power of UC Davis.
+Credit for a significant portion of the content is given jointly to Sean Davis and Matthew Farrens of UC Davis.
 
 Content is licensed under CC BY 4.0.
 See the LICENSE file for more information.
@@ -37,7 +37,7 @@ Emails to me about the course should have the tag **[ECS 154A]** (including the 
 
 *Afternoon Office Hours*: MT 16:00 - 17:30
 
-*Afternoon Office Hours Location*: TBA Kemper
+*Afternoon Office Hours Location*: 3039 Kemper
 
 *Evening Office Hours*: W 19:00 - 20:00
 
@@ -54,6 +54,19 @@ Teaching Assistant
 *Office Hours*: TBA
 
 *Office Hours Location*: TBA Kemper
+
+Description
+~~~~~~~~~~~
+
+Introduction to digital design.
+Interrupts and interconnection hardware.
+Caching and memory hierarchy design.
+Hardware support for operating systems software (virtual memory).
+
+Prerequisites
+~~~~~~~~~~~~~
+
+(ECS 50) or (EEC 70) or the equivalent.
 
 Websites
 --------
@@ -137,11 +150,6 @@ Any violations of this policy will result in reporting the violating student(s) 
 
 .. _`Office of Student Support and Judicial Affairs`: http://sja.ucdavis.edu/
 
-Prerequisites
--------------
-
-(ECS 50) or (EEC 70) or the equivalent.
-
 Assignments and Tests
 ---------------------
 
@@ -201,7 +209,9 @@ Quizzes
 There will be quizzes on Thursday for some weeks.
 Check the schedule_ for the dates.
 
-The quizzes will be in a similar style to the midterm and final, except for their length (25 minutes versus 100 minutes).
+The quizzes themselves will be in a similar style to the midterm and final, except for their length (25 minutes versus 100 minutes).
+However, the quizzes will be open-book and open-note.
+No asking your neighbors for help, and no electronic devices.
 
 Midterm: Thursday, 2018-08-24 14:10
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -209,7 +219,9 @@ Midterm: Thursday, 2018-08-24 14:10
 The midterm covers content through 2018-08-21.
 It will be 100 minutes long.
 
+No asking your neighbors for help, and no electronic devices.
 You are allowed to bring one US letter (8.5" x 11") sheet of *handwritten* notes.
+Otherwise, the midterm is closed-book and closed-note.
 
 Final: Thursday, 2018-09-13 14:10
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -217,7 +229,9 @@ Final: Thursday, 2018-09-13 14:10
 The final is cumulative.
 It will be 100 minutes long.
 
+No asking your neighbors for help, and no electronic devices.
 You are allowed to bring one US letter (8.5" x 11") sheet of *handwritten* notes.
+Otherwise, the final is closed-book and closed-note.
 
 Reading List and Schedule
 -------------------------
@@ -230,8 +244,12 @@ We will be using the following textbooks:
 * *Computer Organization and Architecture* by William Stallings.
 * *Digital McLogic Design* by Bryan Mealy and James Mealy.
 
-For the Stallings book, either the 9th edition or 10th edition is fine.
+The Stallings book is the main book that we will be using.
+Either the 9th edition or 10th edition is fine.
 I will post chapters to read for both editions.
+
+The Mealy and Mealy book serves as the main source for the digital logic content in the course.
+The Stallings book contains some, but not all, of the information that I'd like to cover.
 You can find a copy of *Digital McLogic Design* on Canvas_.
 
 See the schedule_ for reading dates.
