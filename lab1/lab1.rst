@@ -37,6 +37,7 @@ Create two circuits using gates for the following functions.
 You may not use a MUX for this problem.
 
     f(A, B, C, D) = A!B!C + AB!D + BC!D + ABC
+    
     g(A, B, C, D) = A!B + B!C + BD
 
 You can use the Hand Tool to double-click into the subcircuit in *main*, or double-click the relevant subcircuit in the left sidebar.
@@ -102,7 +103,7 @@ Implement a simple odd parity checker.
 Given an eight bit number, output a ninth bit that ensures the total number of bits that are 1 is odd.
 
 There is a parity gate in Logisim for both types of parity (though they are somewhat confusingly named).
-It defeats the purpose of this assignment if you use that, so you may not use either of them.
+It defeats the purpose of this assignment if you use those, so you may not use either of them.
 That being said, it's possible to finish this problem using only one gate.
 
 7. 3 bit ALU [18]
