@@ -175,7 +175,8 @@ You will complete five lab assignments throughout this course.
 The labs can found via the links below.
 All together, the labs are worth 40% of your final grade.
 
-Labs are due at 09:00 on Mondays.
+Labs are due at 09:00 on the date specified.
+The dates below are tentative.
 
 * `Lab 1`_. Due 2018-08-06.
 * `Lab 2`_. Due 2018-08-13.
