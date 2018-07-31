@@ -30,6 +30,10 @@ That being said, you'll want to do a good portion of the written problems before
 13. Much like how we can implement circuits using MUXes (see `the MUX problem below`_), we can do the same with only a decoder and an OR gate. Implement the function f(A, B, C) = m0 + m1 + m4 + m6 + m7 using a 3-to-8 decoder and an OR gate.
 14. For the following timing diagram, synthesize the function f(A, B, C) in the simplest SOP form.
 
+.. image:: timing.png
+    :align: center
+    :width: 100%
+
 Logisim Problems [50]
 ---------------------
 
@@ -50,7 +54,7 @@ Create two circuits using gates for the following functions.
 You may not use a MUX for this problem.
 
     f(A, B, C, D) = A!B!C + AB!D + BC!D + ABC
-    
+
     g(A, B, C, D) = A!B + B!C + BD
 
 You can use the Hand Tool to double-click into the subcircuit in *main*, or double-click the relevant subcircuit in the left sidebar.
