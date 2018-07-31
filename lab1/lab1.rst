@@ -8,6 +8,10 @@ Due by 08:59 on Monday, 2018-08-13.
 Turn in for the Logisim portion is on Canvas.
 Submit one file named lab1.circ.
 
+Partners are suggested, but not mandatory for the Logisim portion of each lab.
+Sharing ideas between groups is fine, but sharing .circ files is not.
+Since the written portion is "optional," feel free to do those alone or with your partner.
+
 Written Problems
 ----------------
 
@@ -40,6 +44,10 @@ Logisim Problems [50]
 **DO NOT MODIFY THE MAIN SUBCIRCUIT THAT CONTAINS THE TESTING COMPONENTS.**
 **DOING SO WILL LEAD TO AN AUTOMATIC ZERO.**
 **YOU HAVE BEEN WARNED.**
+
+The file that you will be modifying is *given/lab1.circ*.
+I highly recommend using Git or some other form of version control to work on these assignments.
+You can create a new *private* repository and add this repository as another upstream repository to download from.
 
 You must use designs relying on only AND gates, OR gates, XOR gates, NOT gates, MUXes, decoders, and the Logisim wiring library, unless specified otherwise.
 Create your designs for each problem in the appropriately labeled subcircuit.
