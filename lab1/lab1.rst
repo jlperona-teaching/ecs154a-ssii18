@@ -15,7 +15,20 @@ The written portion of the assignment won't be collected.
 So, yes, this means that it's "optional."
 That being said, you'll want to do a good portion of the written problems before the quiz, as the problems here will be similar to the questions on the quiz.
 
-1. TBA
+1. Use algebraic minimization to prove that (A + B) * (A + ~B) = A.
+2. Does (A * ~B) + (B * C) + (~A * ~C) = (A * C) + (~B * ~C) + (~A * B)? Show how you made your decision.
+3. If two equations have the same truth table outputs for every input, then the two equations are identical. Prove the OR version of DeMorgan's law, ~(A + B) = ~A * ~B, in this fashion.
+4. Draw out the circuit for the following equation: f(A, B) = AB + ~A~B. Then, draw a timing diagram for the same circuit. Show the waveforms that can be observed on all wires in the circuit.
+5. Use the circuit diagram that you drew for the previous problem. Assume that an AND gate has a gate delay of 5 ns, an OR gate has a gate delay of 4 ns, and a NOT gate has a delay of 3 ns. Shade the worst-case path(s) on the diagram.
+6. Use the circuit diagram and times from the previous problem. Assume that inputs become valid at time 0 ns. How long does it take for the output *f* to become valid?
+7. Find a minimum SOP expression for f(A, B, C) = m0 + m1 + m2 + m3 + m4 + m6 + m7.
+8. Find a minimum SOP expression for f(A, B, C, D) = m0 + D1 + m2 + D3 + D6 + D7 + m8 + m9 + m10 + D11 + m15.
+9. Find a minimum SOP expression for f(A, B, C, D) = A~B~C + ABD + BCD + ~A~B~C~D.
+10. For a four-variable expression, what is the minterm m5? What is the maxterm M13?
+11. If I want a multiplexer to have 128 inputs, how many select bits do I need to have?
+12. We want to create a odd parity checker that takes a 4-bit binary number and inserts a 0 or 1 as the 5th, most significant, bit. For the numbers 0001, 0110, 1111, and 0000, what are the parity checker's corresponding outputs?
+13. Much like how we can implement circuits using MUXes (see `the MUX problem below`_), we can do the same with only a decoder and an OR gate. Implement the function f(A, B, C) = m0 + m1 + m4 + m6 + m7 using a 3-to-8 decoder and an OR gate.
+14. For the following timing diagram, synthesize the function f(A, B, C) in the simplest SOP form.
 
 Logisim Problems [50]
 ---------------------
@@ -85,6 +98,8 @@ Suppose we want to determine how many of the bits in a eight-bit unsigned number
 Design the simplest circuit that can accomplish this task.
 
 You may use any Logisim component for this problem.
+
+.. _`the MUX problem below`:
 
 5. MUX function implementation [4]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
