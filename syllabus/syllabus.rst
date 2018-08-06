@@ -22,9 +22,9 @@ Class and People
 Lectures and Discussions
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Monday, Tuesday, Wednesday*: 14:10 - 15:00, 15:05 - 15:50, 250 Olson
+*Monday, Tuesday, Wednesday*: 14:10 - 15:50, 250 Olson
 
-*Thursday*: 14:10 - 15:00, 15:05 - 15:50, 118 Olson
+*Thursday*: 14:10 - 15:50, 118 Olson
 
 Discussions are held in the second half of lectures on Wednesdays.
 
@@ -173,16 +173,16 @@ Labs
 
 You will complete five lab assignments throughout this course.
 The labs can found via the links below.
-All together, the labs are worth 40% of your final grade.
+All together, the labs are worth 30% of your final grade.
 
-Labs are due at 09:00 on the date specified.
+Labs are due at 08:59 on the date specified.
 The dates below are tentative.
 
-* `Lab 1`_. Due 2018-08-06.
-* `Lab 2`_. Due 2018-08-13.
-* `Lab 3`_. Due 2018-08-20.
-* `Lab 4`_. Due 2018-08-27.
-* `Lab 5`_. Due 2018-09-03.
+* `Lab 1`_. Due 2018-08-13.
+* `Lab 2`_. Due 2018-08-20.
+* `Lab 3`_. Due 2018-08-27.
+* `Lab 4`_. Due 2018-09-03.
+* `Lab 5`_. Due 2018-09-10.
 
 For all labs, you may (and are suggested to) work with a partner.
 You do not have to keep the same partner throughout the whole quarter; you can change who you work with.

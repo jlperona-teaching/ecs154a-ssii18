@@ -41,6 +41,21 @@ That being said, you'll want to do a good portion of the written problems before
 Logisim Problems [50]
 ---------------------
 
+Introduction
+~~~~~~~~~~~~
+
+.. _Carl Burch's website: http://www.cburch.com/logisim/
+.. _his website: http://american.cs.ucdavis.edu/academic/ecs154a/postscript/logisim-tutorial.pdf
+
+You can download Logisim on `Carl Burch's website`_.
+Matthew Farrens has a Logisim introduction available on `his website`_.
+(Read everything up to section 3, you can ignore section 4 for now.)
+The first discussion will also give a short introduction to Logisim and how to implement functions.
+It's recommended that you download Logisim beforehand so that you can follow along on the tutorial.
+
+Assignment
+~~~~~~~~~~
+
 **DO NOT MODIFY THE MAIN SUBCIRCUIT THAT CONTAINS THE TESTING COMPONENTS.**
 **DOING SO WILL LEAD TO AN AUTOMATIC ZERO.**
 **YOU HAVE BEEN WARNED.**
