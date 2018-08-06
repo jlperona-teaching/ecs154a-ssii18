@@ -7,7 +7,7 @@ Content is licensed under CC BY 4.0.
 See the LICENSE file for more information.
 
 .. _Canvas: https://canvas.ucdavis.edu
-.. _Github: https://github.com/jlperona-teaching/ecs154a-ssii2018
+.. _Github: https://github.com/jlperona-teaching/ecs154a-ssii18
 .. _Gradescope: https://gradescope.com/courses/20711
 .. _Piazza: https://piazza.com/class/jjmd3q6esw46c
 .. _schedule: https://github.com/jlperona-teaching/ecs154a-ssii18/blob/master/syllabus/schedule.csv
@@ -35,7 +35,7 @@ Instructor
 
 Emails to me about the course should have the tag **[ECS 154A]** (including the brackets) in the title.
 
-*Afternoon Office Hours*: MT 16:00 - 17:30
+*Afternoon Office Hours*: MT 16:30 - 18:00
 
 *Afternoon Office Hours Location*: 3039 Kemper
 
