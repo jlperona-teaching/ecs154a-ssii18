@@ -1,3 +1,4 @@
-*.pdf
+lab*/*.pdf
+syllabus/*.pdf
 .~lock.*
 *.sh
