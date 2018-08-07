@@ -19,6 +19,13 @@ The written portion of the assignment won't be collected.
 So, yes, this means that it's "optional."
 That being said, you'll want to do a good portion of the written problems before the quiz, as the problems here will be similar to the questions on the quiz.
 
+~, !, and the overbar all stand for NOT (!A = ~A).
+* stands for AND.
++ stands for OR.
+AB = A * B.
+*m* stands for minterm, while *M* stands for maxterm.
+D stands for don't care.
+
 1. Use algebraic minimization to prove that (A + B) * (A + ~B) = A.
 2. Does (A * ~B) + (B * C) + (~A * ~C) = (A * C) + (~B * ~C) + (~A * B)? Show how you made your decision.
 3. If two equations have the same truth table outputs for every input, then the two equations are identical. Prove the OR version of DeMorgan's law, ~(A + B) = ~A * ~B, in this fashion.

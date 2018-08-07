@@ -51,9 +51,9 @@ Teaching Assistant
 
 **Yuan Pan** (yapan at ucdavis dot edu)
 
-*Office Hours*: TBA
+*Office Hours*: R 09:30 - 11:30
 
-*Office Hours Location*: TBA Kemper
+*Office Hours Location*: 53 Kemper
 
 Description
 ~~~~~~~~~~~
