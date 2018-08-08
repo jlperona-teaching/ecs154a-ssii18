@@ -36,14 +36,18 @@ D stands for don't care.
 8. Find a minimum SOP expression for f(A, B, C, D) = m0 + D1 + m2 + D3 + D6 + D7 + m8 + m9 + m10 + D11 + m15.
 9. Find a minimum SOP expression for f(A, B, C, D) = A~B~C + ABD + BCD + ~A~B~C~D.
 10. For a four-variable expression, what is the minterm m5? What is the maxterm M13?
-11. If I want a multiplexer to have 128 inputs, how many select bits do I need to have?
-12. We want to create a odd parity checker that takes a 4-bit binary number and inserts a 0 or 1 as the 5th, most significant, bit. For the numbers 0001, 0110, 1111, and 0000, what are the parity checker's corresponding outputs?
-13. Much like how we can implement circuits using MUXes (see `the MUX problem below`_), we can do the same with only a decoder and an OR gate. Implement the function f(A, B, C) = m0 + m1 + m4 + m6 + m7 using a 3-to-8 decoder and an OR gate.
-14. For the following timing diagram, synthesize the function f(A, B, C) in the simplest SOP form.
+11. For the following timing diagram, synthesize the function f(A, B, C) in the simplest SOP form.
 
 .. image:: timing.png
     :align: center
     :width: 100%
+
+The following questions' content will be covered in lecture 4.
+Thus, questions of this style won't be on the first quiz.
+
+12. If I want a multiplexer to have 128 inputs, how many select bits do I need to have?
+13. We want to create a odd parity checker that takes a 4-bit binary number and inserts a 0 or 1 as the 5th, most significant, bit. For the numbers 0001, 0110, 1111, and 0000, what are the corresponding 5-bit values that the parity checker outputs?
+14. Much like how we can implement circuits using MUXes (see `the MUX problem below`_), we can do the same with only a decoder and an OR gate. Implement the function f(A, B, C) = m0 + m1 + m4 + m6 + m7 using a 3-to-8 decoder and an OR gate.
 
 Logisim Problems [50]
 ---------------------
