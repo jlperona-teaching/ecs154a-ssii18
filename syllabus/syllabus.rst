@@ -6,7 +6,7 @@ Credit for a significant portion of the content is given jointly to Sean Davis a
 Content is licensed under CC BY 4.0.
 See the LICENSE file for more information.
 
-.. _Canvas: https://canvas.ucdavis.edu
+.. _Canvas: https://canvas.ucdavis.edu/courses/283740
 .. _Github: https://github.com/jlperona-teaching/ecs154a-ssii18
 .. _Gradescope: https://gradescope.com/courses/20711
 .. _Piazza: https://piazza.com/class/jjmd3q6esw46c
@@ -171,18 +171,18 @@ Final        30%
 Labs
 ~~~~
 
-You will complete five lab assignments throughout this course.
+You will complete four to five lab assignments throughout this course.
 The labs can found via the links below.
 All together, the labs are worth 30% of your final grade.
 
 Labs are due at 08:59 on the date specified.
 The dates below are tentative.
 
-* `Lab 1`_. Due 2018-08-13.
-* `Lab 2`_. Due 2018-08-20.
-* `Lab 3`_. Due 2018-08-27.
-* `Lab 4`_. Due 2018-09-03.
-* `Lab 5`_. Due 2018-09-10.
+* `Lab 1`_. Due 2018-08-15.
+* `Lab 2`_. Due TBA.
+* `Lab 3`_. Due TBA.
+* `Lab 4`_. Due TBA.
+* `Lab 5`_. Due TBA.
 
 For all labs, you may (and are suggested to) work with a partner.
 You do not have to keep the same partner throughout the whole quarter; you can change who you work with.

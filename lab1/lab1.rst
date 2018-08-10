@@ -4,7 +4,7 @@
 ECS 154A - Lab 1
 ================
 
-Due by 08:59 on Monday, 2018-08-13.
+Due by 08:59 on Wednesday, 2018-08-15.
 Turn in for the Logisim portion is on Canvas.
 Submit one file named lab1.circ.
 

@@ -5,13 +5,13 @@ Tuesday,2018-08-07,14,Lecture,"Gates, truth tables",11.2-11.3,11.2-11.3,"5.2.3, 
 Tuesday,2018-08-07,15,Lecture,"Karnaugh maps, minimization",11.3,11.3,9.2.3-9.2.4,
 Wednesday,2018-08-08,14,Lecture,"Timing, combinational circuit building blocks",11.3,11.3,"7.1-7.4, 11.1-11.3, 19, 20",
 Wednesday,2018-08-08,15,Discussion,Combinational circuit problems,,,,
-Thursday,2018-08-09,14,Lecture,"Combinational circuit building blocks, error correction","5.2, 11.3","5.2, 11.3",11.4-11.5,
+Thursday,2018-08-09,14,Lecture,Combinational circuit building blocks,11.3,11.3,11.4-11.5,
 Thursday,2018-08-09,15,Quiz,Quiz 1 through 2018-08-08,,,,Quiz 1
-Monday,2018-08-13,14,Lecture,"Error correction, sequential circuits",5.2,5.2,,Lab 1
-Monday,2018-08-13,15,Lecture,Sequential circuits,,,,
-Tuesday,2018-08-14,14,Lecture,Finite state machines,,,,
+Monday,2018-08-13,14,Lecture,"Arithmetic logic, error correction",5.2,5.2,,
+Monday,2018-08-13,15,Lecture,"Error correction, sequential circuits",5.2,5.2,,
+Tuesday,2018-08-14,14,Lecture,Sequential circuits,,,,
 Tuesday,2018-08-14,15,Lecture,Finite state machines,,,,
-Wednesday,2018-08-15,14,Lecture,Finite state machines,,,,
+Wednesday,2018-08-15,14,Lecture,Finite state machines,,,,Lab 1
 Wednesday,2018-08-15,15,Discussion,Finite state machine problems,,,,
 Thursday,2018-08-16,14,Lecture,Finite state machines,,,,
 Thursday,2018-08-16,15,Quiz,"Go over Quiz 1, Quiz 2 through 2018-08-15",,,,Quiz 2
