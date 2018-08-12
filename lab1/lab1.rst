@@ -148,7 +148,7 @@ Implement the following function using a MUX:
     f(A, B, C) = m0 + m2 + m4 + m6
 
 You may not use gates for this problem.
-You may only use a MUX, constants, power, and ground.
+You may only use a MUX, a splitter, constants, power, and ground.
 
 6. Parity checker [5]
 ~~~~~~~~~~~~~~~~~~~~~
