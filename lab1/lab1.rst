@@ -8,6 +8,7 @@ Due by 08:59 on Wednesday, 2018-08-15.
 Turn in for the Logisim portion is on Canvas.
 Submit one file named lab1.circ.
 Include your name and your partner's name (if necessary) either as a submission comment on Canvas, or in the text entry box when submitting.
+Only one partner needs to submit.
 
 Partners are suggested, but not mandatory for the Logisim portion of each lab.
 Sharing ideas between groups is fine, but sharing .circ files is not.
