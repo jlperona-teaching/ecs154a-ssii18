@@ -179,7 +179,7 @@ Labs are due at 08:59 on the date specified.
 The dates below are tentative.
 
 * `Lab 1`_. Due 2018-08-15.
-* `Lab 2`_. Due TBA.
+* `Lab 2`_. Due 2018-08-26.
 * `Lab 3`_. Due TBA.
 * `Lab 4`_. Due TBA.
 * `Lab 5`_. Due TBA.
