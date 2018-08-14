@@ -26,7 +26,7 @@ Week 2
 2. Use the 4-bit error correcting circuit that we discussed in class to determine the valid code words associated with the data values *1100* and *0101*.
 3. Using the 4-bit error correcting circuit that we discussed in class, are the following code words valid: *1100110* and *0001111*? If not, what bit was flipped, and what is the valid code word associated with the invalid one?
 4. What is the minimum Hamming distance between valid code words required to be able to detect 4 errors? What is the minimum Hamming distance between valid code words required to be able to correct 4 errors?
-6. What is the difference between a latch and a flip flop?
+5. What is the difference between a latch and a flip flop?
 
 .. TO DO
 
