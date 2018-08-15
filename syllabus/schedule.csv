@@ -9,10 +9,10 @@ Thursday,2018-08-09,14,Lecture,Combinational circuit building blocks,11.3,11.3,"
 Thursday,2018-08-09,15,Quiz,Quiz 1 through 2018-08-08,,,,Quiz 1
 Monday,2018-08-13,14,Lecture,"Arithmetic logic, parity","5.2, 10.2","5.2, 10.2",11.4-11.5,
 Monday,2018-08-13,15,Lecture,Error correction,5.2,5.2,,
-Tuesday,2018-08-14,14,Lecture,"Error correction, latches",5.2,5.2,25.1-25.2,
-Tuesday,2018-08-14,15,Lecture,"Latches, flip flops",,,25.1-25.2,
-Wednesday,2018-08-15,14,Lecture,Finite state machines,,,,Lab 1
-Wednesday,2018-08-15,15,Discussion,Finite state machine problems,,,,
+Tuesday,2018-08-14,14,Lecture,"Error correction, sequential circuits","5.2, 11.4","5.2, 11.4",25.1,
+Tuesday,2018-08-14,15,Lecture,"Latches, flip flops",11.4,11.4,25.2,
+Wednesday,2018-08-15,14,Lecture,"Flip flop timing, registers, counters",11.4,11.4,,Lab 1
+Wednesday,2018-08-15,15,Discussion,Error correction and sequential circuit problems,,,,
 Thursday,2018-08-16,14,Lecture,Finite state machines,,,,
 Thursday,2018-08-16,15,Quiz,"Go over Quiz 1, Quiz 2 through 2018-08-15",,,,Quiz 2
 Monday,2018-08-20,14,Lecture,Finite state machines,,,,
