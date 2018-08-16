@@ -57,6 +57,18 @@ The delays for the components in the above image are as follows:
 - AND gate: 3 ns
 - OR gate: 3 ns
 
+13. (from discussion) For the following circuit with flip flops, determine the worst case path in terms of time. Give the components along the worst case path, and determine how long the clock time of the circuit is.
+
+.. image:: timing2.png
+    :align: center
+    :width: 75%
+
+The delays for the components in the above image are as follows:
+
+- DFF propagation delay: 3 ns
+- DFF setup time: 5 ns
+- MUX delay: 4 ns
+
 Week 3
 ~~~~~~
 
