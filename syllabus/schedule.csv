@@ -13,12 +13,12 @@ Tuesday,2018-08-14,14,Lecture,"Error correction, sequential circuits","5.2, 11.4
 Tuesday,2018-08-14,15,Lecture,"Latches, flip flops",11.4,11.4,25.2,
 Wednesday,2018-08-15,14,Lecture,"Flip flop timing, registers",11.4,11.4,,Lab 1
 Wednesday,2018-08-15,15,Discussion,Error correction and sequential circuit problems,,,,
-Thursday,2018-08-16,14,Lecture,"Counters, finite state machine introduction",11.4,11.4,26.1 – 26.4,
+Thursday,2018-08-16,14,Lecture,"Counters, finite state machine introduction",11.4,11.4,26.1 – 26.3,
 Thursday,2018-08-16,15,Quiz,"Go over Quiz 1, Quiz 2 through 2018-08-15",,,,Quiz 2
-Monday,2018-08-20,14,Lecture,Finite state machines,,,,
-Monday,2018-08-20,15,Lecture,Finite state machines,,,,
-Tuesday,2018-08-21,14,Lecture,Finite state machines,,,,
-Tuesday,2018-08-21,15,Lecture,Finite state machines,,,,
+Monday,2018-08-20,14,Lecture,Finite state machine basics,,,26.4 – 26.5,
+Monday,2018-08-20,15,Lecture,Finite state machine basics,,,26.4 – 26.5,
+Tuesday,2018-08-21,14,Lecture,Finite state machine minimization,,,27.1 – 27.2,
+Tuesday,2018-08-21,15,Lecture,Finite state machine minimization,,,27.1 – 27.2,
 Wednesday,2018-08-22,14,Lecture,"Go over Quiz 2, review",,,,
 Wednesday,2018-08-22,15,Discussion,Review for midterm,,,,
 Thursday,2018-08-23,14,Exam,Midterm through 2018-08-21,,,,MIDTERM
