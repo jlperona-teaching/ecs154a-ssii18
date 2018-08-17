@@ -106,7 +106,7 @@ Hint: you'll want to use a decoder to correctly route to the bit you want to inv
 
 *Input Pins*
 
-Your input pins are the received data bits **D7**, **D6**, **D5**, **D4**, **D3**, **D2**, **D1**, and **D0**, as well as the received check bits **C2**, **C1**, and **C0**.
+Your input pins are the received data bits **D7**, **D6**, **D5**, **D4**, **D3**, **D2**, **D1**, and **D0**, as well as the received check bits **C3**, **C2**, **C1**, and **C0**.
 
 *Output Pins*
 
@@ -162,7 +162,7 @@ For all of the following problems (except #7), you must use Karnaugh maps to min
 
 Derive a minimal state table for a Mealy model FSM that acts as a sequence checker.
 During four consecutive clock pulses, a sequence of four values of the signal **x** is applied.
-The FSM will output **Q = 1** when it detects that the previous 4 bit sequence was either 0111 or 0101.
+The FSM will output **R = 1** when it detects that the previous 4 bit sequence was either 0111 or 0101.
 At all other times, including when the previous sequence was not those described previously, **R = 0**.
 
 After the fourth clock pulse, the circuit resets itself and is ready to take in the next 4 bit sequence.
@@ -179,7 +179,7 @@ Your output pin is the output of the FSM **R**.
 """""""""""""""""""""""""""""""""
 
 Derive a minimal state table for a Moore model FSM that acts as a sequence checker on a sliding window.
-The FSM will output **S = 1** when it detects that at least two out of the last three bits were 1s.
+The FSM will output **S = 1** when it detects that at least two out of the last three bits as given by the input **y** were 1s.
 At all other times, including when the previous sequence was not that described previously, **S = 0**.
 
 Unlike the previous problem, this circuit does not reset itself.
@@ -197,7 +197,7 @@ Your output pin is the output of the FSM **S**.
 """""""""""""""""""""""
 
 Derive a minimal state table for a Moore model FSM that acts as a three-bit parity generator.
-For every three bits that are observed on the input *z* during three consecutive clock cycles, the FSM generates the parity bit **T = 1** if and only if the number of 1s in the three-bit sequence is odd.
+For every three bits that are observed on the input **z** during three consecutive clock cycles, the FSM generates the parity bit **T = 1** if and only if the number of 1s in the three-bit sequence is odd.
 Thus, this is an even parity generator.
 
 Implement the circuit in Logisim.
@@ -220,12 +220,13 @@ Consider a coin-operated vending machine.
 Assume that the machine accepts only quarters, dimes, and nickels.
 Coins are inserted until a total of 25 cents or more is deposited.
 Only one coin is deposited at a time.
+The input signals corresponding to each coin are given by **I25**, **I10**, and **I5**.
 
-The output signal OM should indicate that merchandise should be provided.
-OM = 0 indicates no merchandise.
+The output signal **OM** should indicate that merchandise should be provided.
+**OM** = 0 indicates no merchandise.
 At the same time as the last coin input (that makes the total amount 20 cents or higher), the change outputs are to be set.
-Assume that the machine can give a dime (O10 = 1) and/or a nickel (O5 = 1).
-Use the binary outputs O5 and O10 to represent the 4 distinct change possibilities: no change, 1 nickel, 1 dime, 1 nickel and 1 dime.
+Assume that the machine can give a dime (**O10** = 1) and/or a nickel (**O5** = 1).
+Use the binary outputs **O5** and **O10** to represent the 4 distinct change possibilities: no change, 1 nickel, 1 dime, 1 nickel and 1 dime.
 
 If a customer does something unwise (such as put in a dime and a nickel followed by a quarter), correct change does not need to be given, but the maximum amount of change must be provided.
 
