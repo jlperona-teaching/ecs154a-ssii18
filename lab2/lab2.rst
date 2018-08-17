@@ -40,7 +40,7 @@ Week 2
     :align: center
     :width: 25%
 
-9. Using the state transition table from #9, draw the state transition diagram for a S-R NAND flip flop. (Normally we do things in the opposite direction, but this way is easier for this problem.)
+9. Using the state transition table from #8, draw the state transition diagram for a S-R NAND flip flop. (Normally we do things in the opposite direction, but this way is easier for this problem.)
 10. What separates a clocked latch from a flip flop?
 11. What functionality separates a register from a counter?
 12. For the following circuit with flip flops, determine the worst case path in terms of time. Give the components along the worst case path, and determine how long the clock time of the circuit is.
