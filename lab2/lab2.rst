@@ -4,7 +4,7 @@
 ECS 154A - Lab 2
 ================
 
-Due by 08:59 on Sunday, 2018-08-26.
+Due by 08:59 on Monday, 2018-08-27.
 Turn in for the Logisim portion is on Canvas.
 Submit two files, named lab2a.circ and lab2b.circ.
 Include your name and your partner's name (if necessary) either as a submission comment on Canvas, or in the text entry box when submitting.
@@ -77,7 +77,7 @@ It should be posted at the beginning of Week 3.
 
 .. TO DO
 
-Logisim Problems [50]
+Logisim Problems [65]
 ---------------------
 
 The given files for this lab are split into two files, lab2a.circ and lab2b.circ.
@@ -90,7 +90,7 @@ In addition, unless otherwise specified, you may only use the AND, OR, and NOT g
 Week 2
 ~~~~~~
 
-1. Error correcting [7]
+1. Error correcting [8]
 """""""""""""""""""""""
 
 Implement a 8-bit variant of the error-correcting circuit that we discussed in class.
@@ -116,7 +116,7 @@ Your output pins are the corrected data bits **Z7**, **Z6**, **Z5**, **Z4**, **Z
 
 You may use XOR gates, MUXes, and decoders for this problem.
 
-2. Register implementation [5]
+2. Register implementation [6]
 """"""""""""""""""""""""""""""
 
 Design a four-bit register implementation that uses T flip flops to store its values.
@@ -135,7 +135,7 @@ Your output pins are the four output values **D3**, **D2**, **D1**, and **D0**.
 
 You may use XOR gates and MUXes for this problem.
 
-3. FSM implementation [7]
+3. FSM implementation [8]
 """""""""""""""""""""""""
 
 Derive a circuit that realizes the FSM defined by the state transition table below.
@@ -157,7 +157,7 @@ Week 3
 
 For all of the following problems (except #7), you must use Karnaugh maps to minimize the number of gates and inputs used.
 
-4. Bit sequence checker [6]
+4. Bit sequence checker [9]
 """""""""""""""""""""""""""
 
 Derive a minimal state table for a Mealy model FSM that acts as a sequence checker.
@@ -175,7 +175,7 @@ Your input pins are the input into the FSM **x**, and the clock **Clock**.
 
 Your output pin is the output of the FSM **R**.
 
-5. Sliding window bit checker [6]
+5. Sliding window bit checker [9]
 """""""""""""""""""""""""""""""""
 
 Derive a minimal state table for a Moore model FSM that acts as a sequence checker on a sliding window.
@@ -193,7 +193,7 @@ Your input pins are the input into the FSM **y**, and the clock **Clock**.
 
 Your output pin is the output of the FSM **S**.
 
-6. Parity generator [9]
+6. Parity generator [12]
 """""""""""""""""""""""
 
 Derive a minimal state table for a Moore model FSM that acts as a three-bit parity generator.
@@ -213,7 +213,7 @@ You will also need the clock pin **Clock**.
 
 **T** is your output, the parity bit.
 
-7. Vending machine FSM [10]
+7. Vending machine FSM [13]
 """""""""""""""""""""""""""
 
 Consider a coin-operated vending machine.
