@@ -125,7 +125,10 @@ The register starts out with 0000 (all zeroes) as its first value.
 
 *Input Pins*
 
-Your input pins are the four input bits **I3**, **I2**, **I1**, and **I0**
+Your input pins are the four input bits **I3**, **I2**, **I1**, and **I0**.
+You also have the input **Clock**.
+There is also an input named **Enable**.
+Hook this up to the enable pins on your flip flops.
 
 *Output Pins*
 
@@ -147,6 +150,8 @@ Derive a circuit that realizes the FSM defined by the state transition table bel
 *Input Pins*
 
 Your input pins are the input **w** and the clock **Clock**.
+There is also an input named **Enable**.
+Hook this up to the enable pins on your flip flops.
 
 *Output Pins*
 
