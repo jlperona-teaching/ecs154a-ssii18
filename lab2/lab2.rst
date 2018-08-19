@@ -47,7 +47,7 @@ Week 2
 
 .. image:: timing.png
     :align: center
-    :width: 75%
+    :width: 66%
 
 The delays for the components in the above image are as follows:
 
@@ -61,7 +61,7 @@ The delays for the components in the above image are as follows:
 
 .. image:: timing2.png
     :align: center
-    :width: 75%
+    :width: 66%
 
 The delays for the components in the above image are as follows:
 
@@ -193,7 +193,7 @@ In addition, you may use the corresponding binary numbers to the state numbers a
 .. image:: statediagram.png
     :align: center
     :width: 75%
-    
+
 *Input Pins*
 
 Your input pins are the input into the FSM **y**, and the clock **Clock**.
@@ -205,7 +205,7 @@ Hook this up to the enable pins on your flip flops.
 Your output pin is the output of the FSM **S**.
 
 6. Parity generator [12]
-"""""""""""""""""""""""
+""""""""""""""""""""""""
 
 Derive a minimal state table for a Moore model FSM that acts as a three-bit parity generator.
 For every three bits that are observed on the input **z** during three consecutive clock cycles, the FSM generates the parity bit **T = 1** if and only if the number of 1s in the three-bit sequence is odd.
