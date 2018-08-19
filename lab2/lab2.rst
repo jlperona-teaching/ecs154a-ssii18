@@ -175,24 +175,30 @@ After the fourth clock pulse, the circuit resets itself and is ready to take in 
 *Input Pins*
 
 Your input pins are the input into the FSM **x**, and the clock **Clock**.
+There is also an input named **Enable**.
+Hook this up to the enable pins on your flip flops.
 
 *Output Pins*
 
 Your output pin is the output of the FSM **R**.
 
-5. Sliding window bit checker [9]
-"""""""""""""""""""""""""""""""""
+5. FSM implementation [9]
+"""""""""""""""""""""""""
 
-Derive a minimal state table for a Moore model FSM that acts as a sequence checker on a sliding window.
-The FSM will output **S = 1** when it detects that at least two out of the last three bits as given by the input **y** were 1s.
-At all other times, including when the previous sequence was not that described previously, **S = 0**.
+Implement the following Moore FSM as a circuit.
+Create the state transition table from the diagram, then use K-maps to simplify the final expressions for the next states and outputs.
+You do not need to minimize the FSM, as it is already minimized.
+In addition, you may use the corresponding binary numbers to the state numbers as their binary codes.
 
-Unlike the previous problem, this circuit does not reset itself.
-It discards the oldest bit, brings in the newest bit, and uses those most recent 3 bits to make its determination on whether or not it outputs a 0 or 1.
-
+.. image:: statediagram.png
+    :align: center
+    :width: 75%
+    
 *Input Pins*
 
 Your input pins are the input into the FSM **y**, and the clock **Clock**.
+There is also an input named **Enable**.
+Hook this up to the enable pins on your flip flops.
 
 *Output Pins*
 
@@ -213,6 +219,8 @@ Once you take your three bits in, you reset and start looking at the next 3 bits
 
 **z** is your main input.
 You will also need the clock pin **Clock**.
+There is also an input named **Enable**.
+Hook this up to the enable pins on your flip flops.
 
 *Output Pins*
 
@@ -239,6 +247,8 @@ If a customer does something unwise (such as put in a dime and a nickel followed
 
 Your input pins are the relevant coin signals, **I5**, **I10**, and **I25**.
 You will also need the clock pin **Clock**.
+There is also an input named **Enable**.
+Hook this up to the enable pins on your flip flops.
 
 *Output Pins*
 
