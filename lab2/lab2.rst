@@ -132,7 +132,7 @@ Your output pins are the corrected data bits **Z7**, **Z6**, **Z5**, **Z4**, **Z
 
 *Component Exceptions*
 
-You may use XOR gates, MUXes, and decoders for this problem.
+You may use XOR gates, XNOR gates, MUXes, and decoders for this problem.
 
 2. Register implementation [6]
 """"""""""""""""""""""""""""""
