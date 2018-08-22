@@ -103,6 +103,9 @@ The minimization process from even a simpler 12 state FSM took 8 partitions.
 Problems of this caliber will not be on the midterm or final.
 Try this problem last, if you try it at all.
 
+The key for this problem might help you if you're stuck on Logisim problem #4 below.
+Keep in mind that this is a Moore model, while #4 below must be a Mealy model.
+
 16. We want to implement a Moore FSM that serves as a sequence checker. If the last 4 bit sequence was either 0001 or 0011, we output a 1, and 0 at all other times. Upon receiving the fourth bit, the circuit resets itself and prepares to take in the next 4 bit sequence. Draw out the state diagram for this FSM.
 17. Minimize your state diagram from the previous problem, if necessary. The minimal FSM utilizes 8 states.
 18. Using your minimized state diagram from the previous problem, fill out a state table for it.
