@@ -175,14 +175,13 @@ You will complete four to five lab assignments throughout this course.
 The labs can found via the links below.
 All together, the labs are worth 30% of your final grade.
 
-Labs are due at 08:59 on the date specified.
+Labs are due at 09:00 on the date specified.
 The dates below are tentative.
 
 * `Lab 1`_. Due 2018-08-15.
-* `Lab 2`_. Due 2018-08-26.
+* `Lab 2`_. Due 2018-08-27.
 * `Lab 3`_. Due TBA.
 * `Lab 4`_. Due TBA.
-* `Lab 5`_. Due TBA.
 
 For all labs, you may (and are suggested to) work with a partner.
 You do not have to keep the same partner throughout the whole quarter; you can change who you work with.
@@ -192,7 +191,6 @@ I suggest using Piazza to find partners.
 .. _Lab 2: https://github.com/jlperona-teaching/ecs154a-ssii2018/blob/master/lab2/lab2.rst
 .. _Lab 3: https://github.com/jlperona-teaching/ecs154a-ssii2018/blob/master/lab3/lab3.rst
 .. _Lab 4: https://github.com/jlperona-teaching/ecs154a-ssii2018/blob/master/lab4/lab4.rst
-.. _Lab 5: https://github.com/jlperona-teaching/ecs154a-ssii2018/blob/master/lab5/lab5.rst
 
 Late Assignments
 ~~~~~~~~~~~~~~~~
