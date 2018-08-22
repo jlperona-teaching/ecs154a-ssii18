@@ -234,6 +234,7 @@ Your output pin is the output of the FSM **S**.
 Derive a minimal state table for a Moore model FSM that acts as a three-bit parity generator.
 For every three bits that are observed on the input **z** during three consecutive clock cycles, the FSM generates the parity bit **T = 1** if and only if the number of 1s in the three-bit sequence is odd.
 Thus, this is an even parity generator.
+At all other times, including when we have not seen 3 bits yet, **T = 0**.
 
 Implement the circuit in Logisim.
 Note that this is not a sliding window.
