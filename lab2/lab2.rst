@@ -88,18 +88,26 @@ Week 3
 
 ''''
 
-11. We want to implement a Moore FSM that serves as a sequence checker. If the last 4 bit sequence was either 0001 or 0011, we output a 1, and 0 at all other times. Upon receiving the fourth bit, the circuit resets itself and prepares to take in the next 4 bit sequence. Draw out the state diagram for this FSM.
-12. Minimize your state diagram from the previous problem, if necessary. The minimal FSM utilizes 9 states.
-13. Using your minimized state diagram from the previous problem, fill out a state table for it.
-14. Using your state table from the previous problem, assign binary codes to minimize the amount of logic, and fill out the binary code table. You do not need to create Karnaugh maps for this problem, as there are too many inputs.
+11. We are going to create a Mealy FSM for the vending machine that sits in the basement of Kemper, in the CSIF. Due to ridiculous rates of inflation in the future, Coke bottles in the basement of Kemper cost $6, which makes Sean Davis a very sad man. Our vending machine will only accept $2 and $5 bills (inputs $2 and $5 set to 1 appropriately), and can give a maximum of $1 (output $1 set to 1) back in change. If a customer inputs money in an incorrect fashion (such as a $2 followed by a $2 followed by a $5), they get the maximum amount of change, $1, and nothing else, because the customer is not always right and got what they deserved. The vending machine will dispense its Coke bottle once $6 is input (output Coke is set to 1), then it will reset to accept the next customer's money. Draw out the state diagram for this FSM.
+12. Minimize your state diagram from the previous problem, if necessary. The minimal FSM utilizes 4 states.
+13. Using your state diagram from the previous problem, fill out a state table for it.
+14. Using your state table from the previous problem, assign binary codes to minimize the amount of logic, and fill out the binary code table.
+15. Using the binary code table from the previous problem, create the Karnaugh maps for each of the flip flop's next state values and the output. Solve the Karnaugh maps and determine the minimal SOP form equation for each flip flop next state value and the output.
 
 ''''
 
-15. We are going to create a Mealy FSM for the vending machine that sits in the basement of Kemper, in the CSIF. Due to ridiculous rates of inflation in the future, Coke bottles in the basement of Kemper cost $6, which makes Sean Davis a very sad man. Our vending machine will only accept $2 and $5 bills (inputs $2 and $5 set to 1 appropriately), and can give a maximum of $1 (output $1 set to 1) back in change. If a customer inputs money in an incorrect fashion (such as a $2 followed by a $2 followed by a $5), they get the maximum amount of change, $1, and nothing else, because the customer is not always right and got what they deserved. The vending machine will dispense its Coke bottle once $6 is input (output Coke is set to 1), then it will reset to accept the next customer's money. Draw out the state diagram for this FSM.
-16. Minimize your state diagram from the previous problem, if necessary. The minimal FSM utilizes 4 states.
-17. Using your state diagram from the previous problem, fill out a state table for it.
-18. Using your state table from the previous problem, assign binary codes to minimize the amount of logic, and fill out the binary code table.
-19. Using the binary code table from the previous problem, create the Karnaugh maps for each of the flip flop's next state values and the output. Solve the Karnaugh maps and determine the minimal SOP form equation for each flip flop next state value and the output.
+Note: the problem set below (16 - 20) is **extremely** difficult.
+The naive implementation of the FSM below takes 31 states.
+Creating a simpler FSM to start with (so you don't need to minimize a 31 state FSM) requires significant background knowledge on how FSMs work.
+The minimization process from even a simpler 12 state FSM took 8 partitions.
+Problems of this caliber will not be on the midterm or final.
+Try this problem last, if you try it at all.
+
+16. We want to implement a Moore FSM that serves as a sequence checker. If the last 4 bit sequence was either 0001 or 0011, we output a 1, and 0 at all other times. Upon receiving the fourth bit, the circuit resets itself and prepares to take in the next 4 bit sequence. Draw out the state diagram for this FSM.
+17. Minimize your state diagram from the previous problem, if necessary. The minimal FSM utilizes 8 states.
+18. Using your minimized state diagram from the previous problem, fill out a state table for it.
+19. Using your state table from the previous problem, assign binary codes to minimize the amount of logic, and fill out the binary code table.
+20. Using the binary code table from the previous problem, create the Karnaugh maps for each of the flip flop's next state values and the output. Solve the Karnaugh maps and determine the minimal SOP form equation for each flip flop next state value and the output.
 
 Logisim Problems [65]
 ---------------------
