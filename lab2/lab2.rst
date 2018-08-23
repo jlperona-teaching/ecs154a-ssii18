@@ -7,6 +7,7 @@ ECS 154A - Lab 2
 Due by 08:59 on Monday, 2018-08-27.
 Turn in for the Logisim portion is on Canvas.
 Submit two files, named lab2a.circ and lab2b.circ.
+(Both parts of the assignment are due on the date specified above.)
 Include your name and your partner's name (if necessary) either as a submission comment on Canvas, or in the text entry box when submitting.
 Only one partner needs to submit.
 
