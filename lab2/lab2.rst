@@ -313,7 +313,7 @@ The input signals corresponding to each coin are given by **I25**, **I10**, and 
 
 The output signal **OM** should indicate that merchandise should be provided.
 **OM** = 0 indicates no merchandise.
-At the same time as the last coin input (that makes the total amount 20 cents or higher), the change outputs are to be set.
+At the same time as the last coin input (that makes the total amount 25 cents or higher), the change outputs are to be set.
 Assume that the machine can give a dime (**O10** = 1) and/or a nickel (**O5** = 1).
 Use the binary outputs **O5** and **O10** to represent the 4 distinct change possibilities: no change, 1 nickel, 1 dime, 1 nickel and 1 dime.
 
