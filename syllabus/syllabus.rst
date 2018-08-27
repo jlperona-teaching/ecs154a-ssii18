@@ -171,17 +171,17 @@ Final        30%
 Labs
 ~~~~
 
-You will complete four to five lab assignments throughout this course.
+You will complete four lab assignments throughout this course.
 The labs can found via the links below.
-All together, the labs are worth 30% of your final grade.
+All together, the labs are worth 30% of your final grade, though some labs may be weighted more than others.
 
 Labs are due at 09:00 on the date specified.
 The dates below are tentative.
 
 * `Lab 1`_. Due 2018-08-15.
 * `Lab 2`_. Due 2018-08-27.
-* `Lab 3`_. Due TBA.
-* `Lab 4`_. Due TBA.
+* `Lab 3`_. Due 2018-09-04.
+* `Lab 4`_. Due 2018-09-13. (You may not turn this lab in late, its due date is absolute.)
 
 For all labs, you may (and are suggested to) work with a partner.
 You do not have to keep the same partner throughout the whole quarter; you can change who you work with.
@@ -201,6 +201,9 @@ This will give you partial points up to 48 hours after the due date.
 This system penalizes you less the earlier you turn it in, versus a straight-linear drop-off.
 
     fraction of points = 1 - (hours late)^2/48^2
+
+This does not apply for Lab 4, since I cannot have an assignment due after the start of the final.
+Lab 4's due date is absolute.
 
 Quizzes
 ~~~~~~~
