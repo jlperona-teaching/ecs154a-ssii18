@@ -180,7 +180,7 @@ The dates below are tentative.
 
 * `Lab 1`_. Due 2018-08-15.
 * `Lab 2`_. Due 2018-08-27.
-* `Lab 3`_. Due 2018-09-04.
+* `Lab 3`_. Due 2018-09-05.
 * `Lab 4`_. Due 2018-09-13. (You may not turn this lab in late, its due date is absolute.)
 
 For all labs, you may (and are suggested to) work with a partner.

@@ -4,7 +4,7 @@
 ECS 154A - Lab 3
 ================
 
-Due by 08:59 on Tuesday, 2018-09-04.
+Due by 08:59 on Wednesday, 2018-09-05.
 Turn in for the Logisim portion is on Canvas.
 Submit one file named lab3.circ.
 Include your name and your partner's name (if necessary) either as a submission comment on Canvas, or in the text entry box when submitting.
@@ -22,7 +22,7 @@ Written Problems
 
 The rest will be added later this week.
 
-Logisim Problem [50]
+Logisim Problem [60]
 --------------------
 
 Your assignment is to build a simple processor that is 9 bits wide, and can do various register transfers and ALU operations over a common bus.
