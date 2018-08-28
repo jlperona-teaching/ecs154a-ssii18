@@ -4,7 +4,7 @@
 ECS 154A - Lab 3
 ================
 
-Due by 08:59 on Tuesday, 2018-09-03.
+Due by 08:59 on Tuesday, 2018-09-04.
 Turn in for the Logisim portion is on Canvas.
 Submit one file named lab3.circ.
 Include your name and your partner's name (if necessary) either as a submission comment on Canvas, or in the text entry box when submitting.
@@ -23,64 +23,109 @@ Written Problems
 The rest will be added later this week.
 
 Logisim Problem [50]
--------------------
+--------------------
 
 Your assignment is to build a simple processor that is 9 bits wide, and can do various register transfers and ALU operations over a common bus.
 Below is an outline of the overall CPU design.
-It does not address the circuitry that you may need to implement the HALT instruction.
-
-The diagram is under construction.
 
 Allowed Logisim Components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You may use MUXes, a decoder, a RAM, gates, and flip flops.
+Registers and counters are explicitly disallowed.
+
+CPU Diagram
+~~~~~~~~~~~
+
+You should follow the diagram below when building your CPU.
+It does not address the circuitry that you may need to implement the HALT instruction.
+
+.. image:: diagram.png
+    :align: center
+    :width: 100%
 
 CPU Components
 ~~~~~~~~~~~~~~
 
-You can break the CPU circuit down into the following components:
+You can break the CPU diagram above into the following components:
 
 **1. ALU**
 
 You have already designed a 3-bit ALU in Lab 1.
-You should be able to use that as a starting point for this lab's ALU, though you will need to expand it significantly.
+You should be able to use that as a starting point for this lab's ALU, though you will need to expand it significantly to support all 9 bits.
 Make sure to perform operations bitwise in this lab's ALU.
 
+For the adder and subtractor, you must use carry look-ahead for each group of 3 bits.
+This means that you will need to calculate C1, C2, and C3 in the same way that you did before.
+(C0 will be 0 unless you are doing a subtraction operation.)
+However, C3 can be used as the base for C4, C5, and C6, so you only need to make equations for C4, C5, and C6 in terms of C3.
+The same applies for C7, C8, and C9 in terms of C6.
+You may disregard the final carry out.
+
 **2. Register File**
-
-The register bank will contain seven 9-bit registers.
-On the rising edge of the clock, if the signal Write Enable is asserted, the register corresponding to the appropriate one-hot input will be written with the input data value.
-
-You will want to create a separate subcircuit for a register, which will consist of 9 flip flops.
-Your register file will contain 9 of these subcircuits inside it.
 
 Although a CPU would normally store output in memory (RAM), we will not be dealing with memory in this lab.
 We will be treating the register values as the "output" of this CPU.
 
+The register file will contain eight 9-bit registers.
+On the rising edge of the clock, if the signal *Write Enable* is asserted, the register corresponding to the appropriate one-hot input will be written with the input data value.
+You will need to determine when *Write Enable* should be 0 and 1, respectively.
+
+You will want to create a separate subcircuit for a register, which will consist of 9 flip flops.
+It is your choice what flip flops you use.
+You may not use registers for your registers, you must use flip flops.
+Place the registers in the upper-left corner of your circuit, and ensure that each has a tunnel named *R0* to *R7* respectively connecting to the output of the register.
+
 **3. Decoder**
 
-The decoder will determine the destination register of any output from the ALU by specifying a single high value on one of eight decoder outputs.
+The decoder will determine the destination register of any output from the ALU by specifying a single high value on one of the eight decoder outputs.
 
 **4. Multiplexers**
 
-Two multiplexers are used to select between the different registers, or the immediate data input into the ALU.
+Two multiplexers are used to select between the different registers, or the immediate data input into the ALU for the B MUX.
+Note that the two multiplexers have a differing number of data bits.
 
 **5. RAM**
 
-You will have one 32 x 22 RAM module with separate load and store ports.
+You will have one 64 address x 23 data RAM module with separate load and store ports.
 We will only use the RAM as a source of instructions, so we will not use the store port.
-Associated with the RAM will be a PC register that will have a pin input. When the pin input is set to one, the PC should be reset to zero.
+
+If you want to load a program into the RAM, right click the RAM module, and select *Load Image*.
+You will need to do this every time you reset the simulation by hitting Ctrl-R.
+This is an unfortunate limitation of Logisim.
+
+**6. Program Counter (PC)**
+
+The program counter will be a 6-bit up-counter.
+You must make this out of flip flops of any type, and may not use the counter in Logisim.
+
+The PC will feed the RAM the memory location of the instruction it should output.
+Additionally, you will need to attach a tunnel named *Reset* to the reset pin of the flip flops in your PC.
+When the Reset signal is set to one, the PC should be reset to zero.
 
 Instruction Format
 ~~~~~~~~~~~~~~~~~~
 
-This section is under construction.
+The following table describes how an instruction that will be pulled from RAM will be formatted.
+
+.. image:: format.png
+    :align: center
+    :width: 100%
 
 Operation Description
 ~~~~~~~~~~~~~~~~~~~~~
 
-This section is under construction.
+The following table describes what the opcode from the table above corresponds to in terms of operation.
+All operations, except for NOP and HALT, place their results in the destination register (D in the instruction).
+
+.. image:: operations.png
+    :align: center
+    :width: 100%
+
+Given File
+~~~~~~~~~~
+
+The given file for this lab, lab3.circ, will be posted in this repository soon.
 
 Testing Your CPU
 ~~~~~~~~~~~~~~~~
@@ -92,8 +137,11 @@ The testall.txt file, which will be uploaded soon, does a fairly thorough test o
 Here is a short program:
 
     MOVI R1, #1 (load 1 into R1)
+
     MOVI R2, #2 (load 2 into R2)
+
     ADD R3, R2, R1 (add R2 and R1, store result in R3)
+
     HALT
 
 Run the simulation, and check that the correct registers change to the correct values at the correct times.
