@@ -11,7 +11,7 @@ Therefore, **you may not submit this assignment late**.
 You have been warned.
 
 Turn in for the Logisim portion is on Canvas.
-Submit one file, named lab4.cpp.
+Submit two files, named dmcache.cpp and vm.cpp.
 Include your name and your partner's name (if necessary) either as a submission comment on Canvas, or in the text entry box when submitting.
 Only one partner needs to submit.
 
@@ -34,7 +34,15 @@ Week 6
 
 Under construction.
 
-C++ Problem [?]
----------------
+C++ Problems [50]
+-----------------
+
+Direct-Mapped Cache [25]
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Under construction.
+
+Virtual Memory Simulator [25]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Under construction.
