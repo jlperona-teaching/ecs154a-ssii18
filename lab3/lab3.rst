@@ -31,7 +31,7 @@ Below is an outline of the overall CPU design.
 Allowed Logisim Components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You may use MUXes, a decoder, a RAM, gates, and flip flops.
+You may use MUXes, a decoder, a RAM, gates, flip flops, and anything in the Wiring library.
 Registers and counters are explicitly disallowed.
 
 CPU Diagram
@@ -76,6 +76,9 @@ It is your choice what flip flops you use.
 You may not use registers for your registers, you must use flip flops.
 Place the registers in the upper-left corner of your circuit, and ensure that each has a tunnel named *R0* to *R7* respectively connecting to the output of the register.
 
+Additionally, you will need to attach a tunnel named *Reset* to the reset pin of the flip flops in your registers.
+When the *Reset* signal is set to one, all the registers should be reset to zero.
+
 **3. Decoder**
 
 The decoder will determine the destination register of any output from the ALU by specifying a single high value on one of the eight decoder outputs.
@@ -101,7 +104,7 @@ You must make this out of flip flops of any type, and may not use the counter in
 
 The PC will feed the RAM the memory location of the instruction it should output.
 Additionally, you will need to attach a tunnel named *Reset* to the reset pin of the flip flops in your PC.
-When the Reset signal is set to one, the PC should be reset to zero.
+When the *Reset* signal is set to one, the PC should be reset to zero.
 
 Instruction Format
 ~~~~~~~~~~~~~~~~~~
@@ -125,7 +128,21 @@ All operations, except for NOP and HALT, place their results in the destination 
 Given File
 ~~~~~~~~~~
 
-The given file for this lab, lab3.circ, will be posted in this repository soon.
+The given file for this lab, lab3.circ, contains the grading circuit and nothing else.
+You will need to build your CPU around this given file.
+Feel free to modify anything other than the grading circuit.
+**Do not modify the grading circuit.**
+You may modify main and add as many subcircuits as you want.
+
+Grading Circuit
+~~~~~~~~~~~~~~~
+
+The grading circuit will give you the correct outputs after a simulation reset (Ctrl-R).
+If you use the reset button, it occasionally gives you incorrect outputs due to timing issues in Logisim.
+If the outputs aren't what you're expecting in the grading circuit, don't worry, just reset the circuit.
+
+Resetting the circuit has the unfortunate side effect of clearing the RAM.
+You will need to reload the RAM with the program every time you do this.
 
 Testing Your CPU
 ~~~~~~~~~~~~~~~~
