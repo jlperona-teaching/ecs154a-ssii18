@@ -19,8 +19,21 @@ Written Problems
 
 1. We benefit by going from one bus to two, and two buses to three. Would we benefit if we start adding significantly more and more buses, say, 300? What would the drawback of having that many buses be?
 2. Assume that you have a 64-bit microprocessor, with a 48-bit external data bus, driven by a 4.0 GHz input clock. This microprocessor has a bus cycle whose minimum duration equals 100 input clock cycles. What is the maximum data transfer rate that this microprocessor can sustain?
+3. Use the diagram below showing the single bus machine that we discussed in class. We are going to implement an instruction called *TIFU*, where we add the current contents of the IR to the current contents of the PC, then place the result back into the IR. Using the arrow notation that we discussed in class (such as MDR -> Bus, Bus -> MAR), give the steps necessary to implement this instruction.
 
-The rest will be added later this week.
+.. image:: singlebus.png
+    :align: center
+    :width: 100%
+
+4. In a Von Neumann architecture, can I treat any piece of data as an instruction?
+5. RISC architectures tend to take significantly more instructions to run a program, compared to the same instruction in a CISC architecture. Why are RISC architectures able to run programs faster than CISC architectures, despite the above?
+6. Do we need random back-off in a centralized arbitration mechanism for a bus?
+7. Name two changes we need to make to a computer in order to support interrupts.
+8. Is a "hard drive data ready" interrupt synchronous or asynchronous?
+9. What would happen if an interrupt wasn't "invisible" or transparent to a user process?
+10. If we have a 2048 word memory, and the word size is 32 bytes, how large is the memory?
+11. Draw out a pyramid with five different levels, then place the following memory devices into the levels based on the memory hierarchy that we discussed in class: registers, cache, RAM, solid state disk, tape.
+12. Use your memory hierarchy pyramid from the previous problem. Do the following things increase, decrease, or stay the same as we move from the base of the pyramid to the top: size of the memory, speed of the memory, and cost of the memory?
 
 Logisim Problem [60]
 --------------------
