@@ -25,18 +25,18 @@ Thursday,2018-08-23,14,Exam,Midterm through 2018-08-22,,,,MIDTERM
 Thursday,2018-08-23,15,Exam,Midterm through 2018-08-22,,,,MIDTERM
 Monday,2018-08-27,14,Lecture,"Von Neumann architecture, single bus machine",3.1 – 3.3,3.1 – 3.3,,Lab 2
 Monday,2018-08-27,15,Lecture,"Multiple bus machines, RISC versus CISC, buses","3.4, 15.4","3.4, 15.4",,
-Tuesday,2018-08-28,14,Lecture,"Buses, interrupts","3.2, 3.4","3.2, 3.4",,
-Tuesday,2018-08-28,15,Lecture,Interrupts,3.2,3.2,,
-Wednesday,2018-08-29,14,Lecture,Caches,4,4,,
-Wednesday,2018-08-29,15,Discussion,,,,,
-Thursday,2018-08-30,14,Lecture,Caches,4,4,,
-Thursday,2018-08-30,15,Lecture,Caches,4,4,,
+Tuesday,2018-08-28,14,Lecture,Buses,3.4,3.4,,
+Tuesday,2018-08-28,15,Lecture,"Buses, interrupts","3.2, 3.4","3.2, 3.4",,
+Wednesday,2018-08-29,14,Lecture,"Interrupts, memory","3.2, 4","3.2, 4",,
+Wednesday,2018-08-29,15,Discussion,Single bus machine and bus problems,,,,
+Thursday,2018-08-30,14,Lecture,"Memory, caches",4,4,,
+Thursday,2018-08-30,15,Discussion,"Go over midterm, Lab 3 discussion",,,,
 Monday,2018-09-03,14,Holiday,LABOR DAY,,,,
 Monday,2018-09-03,15,Holiday,LABOR DAY,,,,
-Tuesday,2018-09-04,14,Lecture,,,,,
-Tuesday,2018-09-04,15,Lecture,,,,,
+Tuesday,2018-09-04,14,Lecture,Caches,4,4,,
+Tuesday,2018-09-04,15,Lecture,Caches,4,4,,
 Wednesday,2018-09-05,14,Lecture,,,,,Lab 3
-Wednesday,2018-09-05,15,Discussion,,,,,
+Wednesday,2018-09-05,15,Discussion,Memory and cache problems,,,,
 Thursday,2018-09-06,14,Lecture,,,,,
 Thursday,2018-09-06,15,Quiz,Quiz 3 through 2018-09-05,,,,Quiz 3
 Monday,2018-09-10,14,Lecture,,,,,
