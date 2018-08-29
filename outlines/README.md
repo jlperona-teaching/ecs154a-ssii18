@@ -1,6 +1,6 @@
 # Lecture Outlines
 
-Lecture outlines will be posted before each class (probably by 4 AM the day of).
+Lecture outlines will be posted before each class (probably by 04:00 the day of).
 Unlike the lecture notes, one file will be uploaded for each day of class.
 
 The lecture outlines will be outlines, so they'll contain the headings of what I plan on talking about.

@@ -92,8 +92,16 @@ Note that the two multiplexers have a differing number of data bits.
 
 You will have one 64 address x 23 data RAM module with separate load and store ports.
 We will only use the RAM as a source of instructions, so we will not use the store port.
+The address bits will be sourced from the output of your PC.
+The output of the RAM will be the instruction that you should be executing on this cycle.
+
+You will need to hook up the clock to the RAM (the pin is right in the middle).
+In addition, on the bottom of the RAM, hook up a power module to the *ld / Load* pin to the right of the clock pin.
+Finally, hook up a ground module to the *str / Store* pin at the far left on the bottom of the RAM.
+Doing this will ensure that the RAM outputs the instruction value, and doesn't attempt to store any data.
 
 If you want to load a program into the RAM, right click the RAM module, and select *Load Image*.
+For example, if you want to load *testall.txt* to run with the grading circuit, load that file into your RAM.
 You will need to do this every time you reset the simulation by hitting Ctrl-R.
 This is an unfortunate limitation of Logisim.
 
@@ -105,6 +113,16 @@ You must make this out of flip flops of any type, and may not use the counter in
 The PC will feed the RAM the memory location of the instruction it should output.
 Additionally, you will need to attach a tunnel named *Reset* to the reset pin of the flip flops in your PC.
 When the *Reset* signal is set to one, the PC should be reset to zero.
+
+**7. Control Unit**
+
+Under construction.
+
+**8. Clock**
+
+Use your own Clock for the sequential components that require a clock.
+You may not use the *TClock* tunnel from the grading circuit.
+I'd recommend utilizing one clock from the Wiring library, attaching a tunnel to that clock, and using that tunnel name for all the other components that need the clock.
 
 Instruction Format
 ~~~~~~~~~~~~~~~~~~
@@ -130,12 +148,18 @@ Given File
 
 The given file for this lab, lab3.circ, contains the grading circuit and nothing else.
 You will need to build your CPU around this given file.
+
 Feel free to modify anything other than the grading circuit.
 **Do not modify the grading circuit.**
 You may modify main and add as many subcircuits as you want.
+In fact, you are highly encouraged to use subcircuits and tunnels to ensure your main remains clean.
 
 Grading Circuit
 ~~~~~~~~~~~~~~~
+
+The grading circuit is designed to work with the given file *testall.txt*.
+The results won't be valid if you use another testing file, so you'll need to test those by hand.
+If the TTYs match the expected output (the text in the middle between the TTYs), your CPU is functioning correctly.
 
 The grading circuit will give you the correct outputs after a simulation reset (Ctrl-R).
 If you use the reset button, it occasionally gives you incorrect outputs due to timing issues in Logisim.
@@ -147,10 +171,11 @@ You will need to reload the RAM with the program every time you do this.
 Testing Your CPU
 ~~~~~~~~~~~~~~~~
 
-You will find the binary file assembler.out in this repository soon.
-You can use to write your own testing programs.
+You will find the binary file assembler.out with the given files.
+It is built for a Linux machine, so if you don't have one of your own, you'll need to run it on the CSIF.
+
+You can use the assembler to write your own testing programs.
 The assembler uses MIPS-like formats, and generates files that can be loaded directly into a Logisim RAM module.
-The testall.txt file, which will be uploaded soon, does a fairly thorough test of your circuit.
 Here is a short program:
 
     MOVI R1, #1 (load 1 into R1)
@@ -163,3 +188,7 @@ Here is a short program:
 
 Run the simulation, and check that the correct registers change to the correct values at the correct times.
 For this example, this means that R1 becomes 1, then R2 becomes 2, then R3 becomes 3, then the program halts and no further changes to the CPU state are made.
+
+The *testall.txt* file, which you can find in the same folder as the rest of the given files, does a fairly thorough test of your circuit.
+Remember that the grading circuit is only designed to work with *testall.txt*.
+You will need to test any other files you make by hand.
