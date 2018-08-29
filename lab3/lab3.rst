@@ -116,7 +116,13 @@ When the *Reset* signal is set to one, the PC should be reset to zero.
 
 **7. Control Unit**
 
-Under construction.
+The control unit contains the logic to set the ALU to perform the correct operation.
+You can pass along the opcode straight to the ALU.
+
+The control wires part is up to you.
+You'll probably want to design logic so that MUX B selects the immediate value when you have an instruction that uses the immediate value.
+Additionally, you'll probably want to pass a value along to the ALU when you're doing a SUB operation, instead of an ADD.
+This way, you'll know when you need to invert the B operand and set C0 to 1, like a subtractor does.
 
 **8. Clock**
 
