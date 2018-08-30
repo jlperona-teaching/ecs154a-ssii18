@@ -34,6 +34,7 @@ Written Problems
 10. If we have a 2048 word memory, and the word size is 32 bytes, how large is the memory?
 11. Draw out a pyramid with five different levels, then place the following memory devices into the levels based on the memory hierarchy that we discussed in class: registers, cache, RAM, solid state disk, tape.
 12. Use your memory hierarchy pyramid from the previous problem. Do the following things increase, decrease, or stay the same as we move from the base of the pyramid to the top: size of the memory, speed of the memory, and cost of the memory?
+13. (from lecture) Use the same diagram from problem 3 above. Show the steps needed to implement an instruction that adds the value of a register specified in the instruction to a value from memory whose address is specified in the instruction. Place this value back into the register file, using the register specified in the instruction.
 
 Logisim Problem [60]
 --------------------
@@ -101,6 +102,10 @@ The decoder will determine the destination register of any output from the ALU b
 Two multiplexers are used to select between the different registers, or the immediate data input into the ALU for the B MUX.
 Note that the two multiplexers have a differing number of data bits.
 
+When we say "immediate value," we mean the 9 bits contained with the instruction itself.
+For the MOVI, ADDI, and SUBI instructions, the B data source in the ALU should be the 9 bits from the instruction.
+This is the 8th input into MUX B in the diagram above.
+
 **5. RAM**
 
 You will have one 64 entry x 23 data RAM module with separate load and store ports.
@@ -132,7 +137,10 @@ When the *Reset* signal is set to one, the PC should be reset to zero.
 The control unit contains the logic to set the ALU to perform the correct operation.
 You can pass along the opcode straight to the ALU.
 
-The control wires part is up to you.
+This is the part where you're going to want to generate the *Write Enable* circuit.
+You have the opcode, which you can use to figure out when the enable should be 0 or 1.
+
+The other control wires are up to you.
 You'll probably want to design logic so that MUX B selects the immediate value when you have an instruction that uses the immediate value.
 Additionally, you'll probably want to pass a value along to the ALU when you're doing a SUB operation, instead of an ADD.
 This way, you'll know when you need to invert the B operand and set C0 to 1, like a subtractor does.
