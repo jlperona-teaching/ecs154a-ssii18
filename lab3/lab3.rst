@@ -26,7 +26,7 @@ Written Problems
     :width: 100%
 
 4. In a Von Neumann architecture, can I treat any piece of data as an instruction?
-5. RISC architectures tend to take significantly more instructions to run a program, compared to the same instruction in a CISC architecture. Why are RISC architectures able to run programs faster than CISC architectures, despite the above?
+5. RISC architectures tend to take significantly more instructions to run a program, compared to the same program in a CISC architecture. Why are RISC architectures able to run programs faster than CISC architectures, despite the above?
 6. Do we need random back-off in a centralized arbitration mechanism for a bus?
 7. Name two changes we need to make to a computer in order to support interrupts.
 8. Is a "hard drive data ready" interrupt synchronous or asynchronous?
