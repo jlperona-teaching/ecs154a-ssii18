@@ -31,7 +31,7 @@ Written Problems
 7. Name two changes we need to make to a computer in order to support interrupts.
 8. Is a "hard drive data ready" interrupt synchronous or asynchronous?
 9. What would happen if an interrupt wasn't "invisible" or transparent to a user process?
-10. If we have a 2048 word memory, and the word size is 32 bytes, how large is the memory?
+10. If we have a 2048 word memory, and the word size is 32 bytes, how many bytes does the memory contain?
 11. Draw out a pyramid with five different levels, then place the following memory devices into the levels based on the memory hierarchy that we discussed in class: registers, cache, RAM, solid state disk, tape.
 12. Use your memory hierarchy pyramid from the previous problem. Do the following things increase, decrease, or stay the same as we move from the base of the pyramid to the top: size of the memory, speed of the memory, and cost of the memory?
 13. (from lecture) Use the same diagram from problem 3 above. Show the steps needed to implement an instruction that adds the value of a register specified in the instruction to a value from memory whose address is specified in the instruction. Place this value back into the register file, using the register specified in the instruction.
