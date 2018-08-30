@@ -103,7 +103,7 @@ Note that the two multiplexers have a differing number of data bits.
 
 **5. RAM**
 
-You will have one 64 address x 23 data RAM module with separate load and store ports.
+You will have one 64 entry x 23 data RAM module with separate load and store ports.
 We will only use the RAM as a source of instructions, so we will not use the store port.
 The address bits will be sourced from the output of your PC.
 The output of the RAM will be the instruction that you should be executing on this cycle.
