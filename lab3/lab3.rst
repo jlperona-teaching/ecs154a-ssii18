@@ -46,7 +46,11 @@ Allowed Logisim Components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You may use MUXes, a decoder, a RAM, gates, flip flops, and anything in the Wiring library.
+Bit shifters are fine, though unnecessary.
+(A splitter does the job for the shifting instructions far better than the shifters.)
+
 Registers and counters are explicitly disallowed.
+You must implement the PC and register file via flip flops.
 
 CPU Diagram
 ~~~~~~~~~~~
@@ -106,6 +110,11 @@ When we say "immediate value," we mean the 9 bits contained with the instruction
 For the MOVI, ADDI, and SUBI instructions, the B data source in the ALU should be the 9 bits from the instruction.
 This is the 8th input into MUX B in the diagram above.
 
+Keep in mind you can't just pipe in the MUX B bits from the instruction straight into the MUX.
+The immediate instructions need to select the data from the instruction, and the instructions themselves won't provide the correct value.
+You will need to figure out how to ensure immediate-type instructions get the data from the instruction, while other instructions get the correct register value.
+See the Control Unit section below for more information.
+
 **5. RAM**
 
 You will have one 64 entry x 23 data RAM module with separate load and store ports.
@@ -131,6 +140,10 @@ You must make this out of flip flops of any type, and may not use the counter in
 The PC will feed the RAM the memory location of the instruction it should output.
 Additionally, you will need to attach a tunnel named *Reset* to the reset pin of the flip flops in your PC.
 When the *Reset* signal is set to one, the PC should be reset to zero.
+
+Your PC still needs to advance when the HALT instruction is triggered.
+The same idea applies for a NOP - we still need to advance the PC.
+However, any future instructions after the HALT should not modify the PC at all.
 
 **7. Control Unit**
 
