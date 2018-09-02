@@ -111,7 +111,7 @@ For the MOVI, ADDI, and SUBI instructions, the B data source in the ALU should b
 This is the 8th input into MUX B in the diagram above.
 
 Keep in mind you can't just pipe in the MUX B bits from the instruction straight into the MUX.
-The immediate instructions need to select the data from the instruction, and the instructions themselves won't provide the correct value.
+The immediate instructions need to select the data from the instruction, and the instructions themselves won't provide the correct B value.
 You will need to figure out how to ensure immediate-type instructions get the data from the instruction, while other instructions get the correct register value.
 See the Control Unit section below for more information.
 
