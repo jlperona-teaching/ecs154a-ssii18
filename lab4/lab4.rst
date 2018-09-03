@@ -47,6 +47,7 @@ C++ Problems [50]
 -----------------
 
 For this lab, you will be implementing two related cache simulators in C++.
+A rough time estimate to complete both is approximately 6 hours.
 
 Direct Mapped Cache [25]
 ~~~~~~~~~~~~~~~~~~~~~~~~
