@@ -3,3 +3,5 @@ syllabus/*.pdf
 .~lock.*
 *.sh
 lab3/assembler
+lab4/dmcache
+lab4/sacache
