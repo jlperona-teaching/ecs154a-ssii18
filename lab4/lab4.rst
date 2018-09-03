@@ -85,15 +85,15 @@ Input
 Both caches will take as input a filename from the command line.
 The file specified by the filename will be a comma-separated-value (CSV) ASCII file with each line in the following 4-byte format:
 
-===== ==============
-Bytes Function
------ --------------
-1 - 2 16 bit address
------ --------------
-  3   Read / Write
------ --------------
-  4   1 byte of data
-===== ==============
+========= ==============
+**Bytes** **Function**
+--------- --------------
+1 - 2     16 bit address
+--------- --------------
+3         Read / Write
+--------- --------------
+4         1 byte of data
+========= ==============
 
 The read function will be designated by 0xFF, and the write function will be designated by 0x00.
 Upon a read operation, the data segment of the 4-byte format will be ignored.
@@ -103,20 +103,22 @@ For ease of parsing, the input file will be a comma-separated-value (CSV) file.
 All the data values will be in hex, separated by commas.
 An example is below:
 
-======= ========== ====
-Address Read/Write Data
-------- ---------- ----
-002D    00         FD
-------- ---------- ----
-002E    00         4E
-------- ---------- ----
-002D    FF         28
-======= ========== ====
+=========== ============== ========
+**Address** **Read/Write** **Data**
+----------- -------------- --------
+002D        00             FD
+----------- -------------- --------
+002E        00             4E
+----------- -------------- --------
+002D        FF             28
+=========== ============== ========
 
 These values would appear in the input file as the following:
 
     002D,00,FD
+    
     002E,00,4E
+    
     002D,FF,28
 
 The first two lines signify that FD and 4E should be written to the appropriate locations in the cache, and the third line signifies that data should be read from the cache.
