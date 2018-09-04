@@ -185,5 +185,5 @@ Testing
 ~~~~~~~
 
 You will find two test input files for each cache, along with the corresponding correct output files, in *given/dmcache* and *given/sacache*.
-
-The files in *given/sacache* are under construction, and will be uploaded soon.
+Diff your output and mine to see if your cache simulator is working correctly.
+If your program returns the same output for each of the input files, your cache should be working correctly.
