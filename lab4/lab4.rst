@@ -58,11 +58,13 @@ While this isn't necessarily good practice, it means we don't need to deal with 
 
 Implement a 512 byte direct-mapped cache with a line size of 16 bytes.
 The cache is byte addressable.
-Your cache will need to support reading a byte from a cache, and writing a new byte of data into the cache.
 
+Your cache will need to support reading a byte from a cache, and writing a new byte of data into the cache.
 This cache will support a write-back write policy, which will require the use of a dirty bit.
+
 In addition, the cache must support a write-allocate write miss policy, in which a write miss causes the appropriate line to be brought into the cache from memory, and the write's value to update the correct part of the line in the cache.
 That line then becomes dirty.
+This is the same policy that we discussed in class.
 
 Set Associative Cache [25]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -116,9 +118,9 @@ An example is below:
 These values would appear in the input file as the following:
 
     002D,00,FD
-    
+
     002E,00,4E
-    
+
     002D,FF,28
 
 The first two lines signify that FD and 4E should be written to the appropriate locations in the cache, and the third line signifies that data should be read from the cache.

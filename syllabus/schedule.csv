@@ -33,9 +33,9 @@ Thursday,2018-08-30,16,14,Lecture,"Memory, memory hierarchy",4.1,4.1,,
 Thursday,2018-08-30,16,15,Discussion,"Go over midterm, Lab 3 discussion",,,,
 Monday,2018-09-03,17,14,Holiday,LABOR DAY,,,,
 Monday,2018-09-03,17,15,Holiday,LABOR DAY,,,,
-Tuesday,2018-09-04,18,14,Lecture,Caches,4.2 – 4.3,4.2 – 4.3,,
-Tuesday,2018-09-04,18,15,Lecture,Caches,4.2 – 4.3,4.2 – 4.3,,
-Wednesday,2018-09-05,19,14,Lecture,Caches,4.2 – 4.3,4.2 – 4.3,,Lab 3
+Tuesday,2018-09-04,18,14,Lecture,Cache basics,4.2 – 4.3,4.2 – 4.3,,
+Tuesday,2018-09-04,18,15,Lecture,"Cache addressing, direct-mapped caches",4.2 – 4.3,4.2 – 4.3,,
+Wednesday,2018-09-05,19,14,Lecture,Fully-associative and set-associative caches,4.2 – 4.3,4.2 – 4.3,,Lab 3
 Wednesday,2018-09-05,19,15,Discussion,Memory and cache problems,,,,
 Thursday,2018-09-06,20,14,Lecture,,,,,
 Thursday,2018-09-06,20,15,Quiz,Quiz 3 through 2018-09-05,,,,Quiz 3
