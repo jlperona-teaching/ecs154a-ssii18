@@ -35,9 +35,9 @@ Monday,2018-09-03,17,14,Holiday,LABOR DAY,,,,
 Monday,2018-09-03,17,15,Holiday,LABOR DAY,,,,
 Tuesday,2018-09-04,18,14,Lecture,Cache basics,4.2 – 4.3,4.2 – 4.3,,
 Tuesday,2018-09-04,18,15,Lecture,"Cache addressing, direct-mapped caches",4.2 – 4.3,4.2 – 4.3,,
-Wednesday,2018-09-05,19,14,Lecture,Fully-associative and set-associative caches,4.2 – 4.3,4.2 – 4.3,,Lab 3
-Wednesday,2018-09-05,19,15,Discussion,Memory and cache problems,,,,
-Thursday,2018-09-06,20,14,Lecture,,,,,
+Wednesday,2018-09-05,19,14,Lecture,"Fully-associative caches, set-associative caches",4.2 – 4.3,4.2 – 4.3,,Lab 3
+Wednesday,2018-09-05,19,15,Discussion,Cache parameter problems,,,,
+Thursday,2018-09-06,20,14,Lecture,"Set-associative caches, replacement and write policies",4.2 – 4.3,4.2 – 4.3,,
 Thursday,2018-09-06,20,15,Quiz,Quiz 3 through 2018-09-05,,,,Quiz 3
 Monday,2018-09-10,21,14,Lecture,,,,,
 Monday,2018-09-10,21,15,Lecture,,,,,
