@@ -49,7 +49,7 @@ C++ Problems [50]
 For this lab, you will be implementing two related cache simulators in C++.
 A rough time estimate to complete both is approximately 6 hours.
 
-Direct Mapped Cache [25]
+Direct Mapped Cache [30]
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 The file to turn in for this part is *dmcache.cpp*.
@@ -66,7 +66,7 @@ In addition, the cache must support a write-allocate write miss policy, in which
 That line then becomes dirty.
 This is the same policy that we discussed in class.
 
-Set Associative Cache [25]
+Set Associative Cache [20]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The file to turn in for this part is *sacache.cpp*.
