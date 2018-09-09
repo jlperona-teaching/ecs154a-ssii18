@@ -186,6 +186,6 @@ You should initialize the contents of that memory (as well as your cache) to all
 Testing
 ~~~~~~~
 
-You will find two test input files for each cache, along with the corresponding correct output files, in *given/dmcache* and *given/sacache*.
-Diff your output and mine to see if your cache simulator is working correctly.
+You will find three test input files for each cache, along with the corresponding correct output files, in *given/dmcache* and *given/sacache*.
+Diff your output and mine for each test case to see if your cache simulator is working correctly.
 If your program returns the same output for each of the input files, your cache should be working correctly.
