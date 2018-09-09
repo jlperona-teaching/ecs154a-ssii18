@@ -5,3 +5,5 @@ syllabus/*.pdf
 lab3/assembler
 lab4/dmcache
 lab4/sacache
+sacache.out
+dmcache.out
