@@ -27,12 +27,12 @@ Since this lab spans multiple weeks, the written portion is divided into its rep
 Week 5
 ~~~~~~
 
-1. Given a 16 KB DM cache with a 21-bit physical address and a line size of 16 bytes, show how a physical address is laid out for use in the cache. Label each portion of the address, and give the number of bits for each portion.
-2. Given a 4 KB DM cache with a 15-bit physical address and a line size of 8 bytes, show how a physical address is laid out for use in the cache. Label each portion of the address, and give the number of bits for each portion.
-3. Given a 512 byte FA cache with a 12-bit physical address and a line size of 4 bytes, show how a physical address is laid out for use in the cache. Label each portion of the address, and give the number of bits for each portion.
-4. Given a 2 KB FA cache with a 27-bit physical address and a line size of 16 bytes, show how a physical address is laid out for use in the cache. Label each portion of the address, and give the number of bits for each portion.
-5. Intel's Nehalem architecture in 2008 had an 8 MB 16-way set associative L3 cache, with a line size of 64 bytes. Assuming a 48-bit physical address, show how a physical address is laid out for use in the L3 cache. Label each portion of the address, and give the number of bits for each portion.
-6. Given a 512 KB 4-way SA cache with a 30-bit physical address and a line size of 32 bytes, show how a physical address is laid out for use in the cache. Label each portion of the address, and give the number of bits for each portion.
+1. Given a 16 KB byte-addressable DM cache with a 21-bit physical address and a line size of 16 bytes, show how a physical address is laid out for use in the cache. Label each portion of the address, and give the number of bits for each portion.
+2. Given a 4 KB byte-addressable DM cache with a 15-bit physical address and a line size of 8 bytes, show how a physical address is laid out for use in the cache. Label each portion of the address, and give the number of bits for each portion.
+3. Given a 512 byte byte-addressable FA cache with a 12-bit physical address and a line size of 4 bytes, show how a physical address is laid out for use in the cache. Label each portion of the address, and give the number of bits for each portion.
+4. Given a 2 KB byte-addressable FA cache with a 27-bit physical address and a line size of 16 bytes, show how a physical address is laid out for use in the cache. Label each portion of the address, and give the number of bits for each portion.
+5. Intel's Nehalem architecture in 2008 had an 8 MB 16-way byte-addressable set associative L3 cache, with a line size of 64 bytes. Assuming a 48-bit physical address, show how a physical address is laid out for use in the L3 cache. Label each portion of the address, and give the number of bits for each portion.
+6. Given a 512 KB 4-way byte-addressable SA cache with a 30-bit physical address and a line size of 32 bytes, show how a physical address is laid out for use in the cache. Label each portion of the address, and give the number of bits for each portion.
 7. Why are logically addressed caches faster than their physically addressed counterparts?
 8. What is the cache aliasing problem?
 9. What minimizes the number of writes back to memory: a write-through policy, or a write-back policy?
@@ -41,7 +41,33 @@ Week 5
 Week 6
 ~~~~~~
 
-Under construction.
+1. What are the two major objectives of an operating system?
+2. Why does a multiprogrammed system require memory protection?
+3. In a dynamic partitioning memory management system, what eventually ends up happening as we allocate more and more partitions to processes? What must the OS do in order to counteract this? What is the downside of the action that the OS must take?
+4. Pair the following terms together: physical, page, frame, virtual.
+5. What is virtual memory thrashing?
+6. Assuming a 24-bit virtual address, a byte-addressable memory size of 128 KB, and a page size of 1 KB, show how virtual addresses and physical addresses are laid out for use in this machine's virtual memory system. Label each portion of each address, and give the number of bits for each portion.
+7. Assuming a 31-bit virtual address, a byte-addressable memory size of 2 MB, and a page size of 2 KB, show how virtual addresses and physical addresses are laid out for use in this machine's virtual memory system. Label each portion of each address, and give the number of bits for each portion.
+8. Using the previous problem, determine how many entries are in the page table, and how wide each entry of the page table is. How does the page table size compare to the size of the entire memory? Will we be able to fit the entire page table into our memory?
+9. Using the following page table and the virtual addresses below, either translate the virtual address and give the corresponding physical address, or determine that there will be a page fault. The page size for this virtual memory system is 256 B.
+
+.. image:: pagetable.png
+    :align: center
+    :width: 50%
+
+The virtual addresses are below.
+
+    a. 0x25F
+    b. 0x0EC
+    c. 0x709
+    d. 0x5AD
+
+10. What would happen if our TLB had a very low hit rate?
+
+The following questions are fair game if we end up covering scheduling.
+
+11. What are the three potential ways that a process that is currently Running gets moved out of the Running state?
+12. What information does a Process Control Block need to contain?
 
 C++ Problems [50]
 -----------------
