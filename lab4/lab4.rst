@@ -111,6 +111,10 @@ Input
 ~~~~~
 
 Both caches will take as input a filename from the command line.
+The filename will be given immediately after your program name, like so:
+
+    ./dmcache.out dmcache-test-20.csv
+
 The file specified by the filename will be a comma-separated-value (CSV) ASCII file with each line in the following 4-byte format:
 
 ========= ==============
