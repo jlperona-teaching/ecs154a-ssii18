@@ -64,7 +64,7 @@ The virtual addresses are below.
 
 10. What would happen if our TLB had a very low hit rate?
 
-The following questions are fair game if we end up covering scheduling.
+*The following questions are on scheduling, and will not be covered on the final.*
 
 11. What are the three potential ways that a process that is currently Running gets moved out of the Running state?
 12. What information does a Process Control Block need to contain?
