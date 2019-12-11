@@ -3,7 +3,7 @@
 Credit for the course layout and some of the content is given to Jason Lowe-Power of UC Davis.
 Credit for a significant portion of the content is given jointly to Sean Davis and Matthew Farrens of UC Davis.
 
-Content is licensed under CC BY 4.0.
+Content is licensed under CC BY NC 4.0.
 See the LICENSE file for more information.
 
 .. _Canvas: https://canvas.ucdavis.edu/courses/283740
