@@ -1,4 +1,6 @@
 :Author: Justin Perona
+:Copyright: © 2018 Justin Perona
+:License: CC BY-NC 4.0
 
 ================
 ECS 154A - Lab 4
